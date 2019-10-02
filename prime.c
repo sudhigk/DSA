@@ -54,4 +54,5 @@ void main()
         if(ptr[i]!=0)
             printf("%d ",ptr[i]);
     printf("\n");
+    free(ptr);
 }
